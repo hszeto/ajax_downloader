@@ -11,18 +11,18 @@ ___
 
 Example:
 ```<script>```
-&nbsp;&nbsp;&nbsp;&nbsp;```$.ajax({```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```url:'/api/user/1',```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```method:'get'```
-&nbsp;&nbsp;&nbsp;&nbsp;```}).done(function( response_data ){```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```$Adl( response_data );```
-&nbsp;&nbsp;&nbsp;&nbsp;```});```
+```$.ajax({```
+```url:'/api/user/1',```
+```method:'get'```
+```}).done(function( response_data ){```
+```$Adl( response_data );```
+```});```
 ```</script>```
 
 Options:
 The filename extension is '.json' if it is not specified. You can change the filename extension by:
-&nbsp;&nbsp;&nbsp;&nbsp;```$Adl( object_for_download, "txt" );```
-&nbsp;&nbsp;&nbsp;&nbsp;```$Adl( object_for_download, "js" );```
+```$Adl( object_for_download, "txt" );```
+```$Adl( object_for_download, "js" );```
 ___
 #### Demo:
 Visit https://jsfiddle.net/hszeto/kw5jmLu4/
