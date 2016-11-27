@@ -8,18 +8,18 @@ ___
 2. Add script tag for ajax_downloader.js in html head. (after jQuery)
 3. Use '$Adl' to define ajax_downlader. ```$Adl( object_for_download, file_extension );```
 
-Example:
-&nbsp;&nbsp;&nbsp;&nbsp; ```$.ajax({```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```url:'/api/user/1',```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```method:'get'```
-&nbsp;&nbsp;&nbsp;&nbsp; ```}).done(function( response_data ){```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( response_data );```
-&nbsp;&nbsp;&nbsp;&nbsp; ```});```
+Example:   
+&nbsp;&nbsp;&nbsp;&nbsp; ```$.ajax({```   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```url:'/api/user/1',```   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```method:'get'```   
+&nbsp;&nbsp;&nbsp;&nbsp; ```}).done(function( response_data ){```   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( response_data );```   
+&nbsp;&nbsp;&nbsp;&nbsp; ```});```   
 
 Options:
-The filename extension is '.json' if it is not specified. You can change the filename extension by:
-&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "txt" );```
-&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "js" );```
+The filename extension is '.json' if it is not specified. You can change the filename extension by:   
+&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "txt" );```   
+&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "js" );```   
 ___
 #### Demo:  
 Visit https://jsfiddle.net/hszeto/kw5jmLu4/
