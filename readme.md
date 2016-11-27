@@ -11,13 +11,14 @@ ___
 Example:   
 &nbsp;&nbsp;&nbsp;&nbsp; ```$.ajax({```   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```url:'/api/user/1',```   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```dataType:'json',```   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```method:'get'```   
 &nbsp;&nbsp;&nbsp;&nbsp; ```}).done(function( response_data ){```   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( response_data );```   
 &nbsp;&nbsp;&nbsp;&nbsp; ```});```   
 
-Options:
-The filename extension is '.json' if it is not specified. You can change the filename extension by:   
+Options:   
+The default filename extension is '.json' if it is not specified. You can change the filename extension by:   
 &nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "txt" );```   
 &nbsp;&nbsp;&nbsp;&nbsp; ```$Adl( object_for_download, "js" );```   
 ___
